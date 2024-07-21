@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="httpMethods.POSTRequest">
+      <class name="APITest.Serialization_Deserialization">
         <methods>
-          <include name="PostWithHashMap"/>
+          <include name="DeSerialization"/>
         </methods>
-      </class> <!-- httpMethods.POSTRequest -->
+      </class> <!-- APITest.Serialization_Deserialization -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
